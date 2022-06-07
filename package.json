@@ -1,0 +1,36 @@
+{
+  "name": "image-processor",
+  "version": "1.0.0",
+  "description": "Process images. Udacity project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kluth/image-processor.git"
+  },
+  "keywords": [
+    "image",
+    "processing",
+    "udacity"
+  ],
+  "author": {
+    "name": "Matthias Kluth",
+    "email": "kluthmatthias@gmail.com"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kluth/image-processor/issues"
+  },
+  "homepage": "https://github.com/kluth/image-processor#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jasmine": "^4.0.3",
+    "@types/node": "^17.0.40",
+    "jasmine": "^4.1.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
