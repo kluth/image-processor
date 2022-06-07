@@ -4,9 +4,11 @@
   "description": "Process images. Udacity project",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine-ts specs/**/*.spec.ts",
     "start": "ts-node src/index.ts",
-    "watch": "nodemon"
+    "watch": "nodemon",
+    "jasmine": "jasmine",
+    "test": "npm run build && npm run jasmine",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -36,12 +38,13 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "jasmine": "^4.1.0",
-    "jasmine-ts": "^0.4.0",
+    "jasmine-spec-reporter": "^7.0.0",
     "nodemon": "^2.0.16",
     "prettier": "^2.6.2",
     "ts-node": "^10.8.1"
   },
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.5"
   }
 }
