@@ -4,7 +4,9 @@
   "description": "Process images. Udacity project",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine-ts specs/**/*.spec.ts",
+    "start": "ts-node src/index.ts",
+    "watch": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -28,7 +30,16 @@
     "@types/express": "^4.17.13",
     "@types/jasmine": "^4.0.3",
     "@types/node": "^17.0.40",
-    "jasmine": "^4.1.0"
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jasmine": "^4.1.0",
+    "jasmine-ts": "^0.4.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.8.1"
   },
   "dependencies": {
     "express": "^4.18.1"
