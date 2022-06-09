@@ -7,7 +7,8 @@
     "start": "ts-node src/index.ts",
     "watch": "nodemon",
     "jasmine": "jasmine",
-    "test": "npm run build && npm run jasmine",
+    "jest": "jest",
+    "test": "npm run build && npm run jest",
     "build": "tsc"
   },
   "repository": {
@@ -21,7 +22,8 @@
   ],
   "author": {
     "name": "Matthias Kluth",
-    "email": "kluthmatthias@gmail.com"
+    "email": "kluthmatthias@gmail.com",
+    "url": "https://github.com/Codestreber"
   },
   "license": "GPL-3.0",
   "bugs": {
